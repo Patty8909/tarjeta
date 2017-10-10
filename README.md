@@ -10,3 +10,4 @@ Para devolver un mensaje encriptado según el **algoritmo de cifrado césar**, c
 + A esto le sumamos el valor fijo que es 33 espacios hacia a derecha y a esto le aplicamos el residuo de 26, que es el número de letras del alfabeto.
 + Luego sumamos nuevamente 65 a este resultado para obtener el código Ascii.
 # cipher
+# tarjeta
