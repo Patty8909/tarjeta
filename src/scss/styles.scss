@@ -17,3 +17,10 @@ $body-bg: #d95700;
 .carousel-inner img {
   @extend %img;
 }
+%img2 {
+  width: 100%;
+  height: 200px;
+}
+.template img {
+  @extend %img2;
+}

@@ -25,10 +25,10 @@
           
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-              <a class="nav-item nav-link" href="#">Features</a>
-              <a class="nav-item nav-link" href="#">Pricing</a>
-              <a class="nav-item nav-link" href="#">Disabled</a>
+              <a class="nav-item nav-link active" href="#">Inicio<span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="#">Servicios</a>
+              <a class="nav-item nav-link" href="#">Promociones</a>
+              <a class="nav-item nav-link" href="#">Contáctanos</a>
             </div>
           </div>
         </nav>
@@ -60,18 +60,30 @@
             </a>
           </div>
 
-          <div id="app">
-  
-                <template v-for="todo in todos">
-                    <div>
-                        <h2>{{ todo.firstName }}</h2>
-                        <h5>{{ todo.lastName }}</h5>
-                        <p>{{ todo.age }}</p>
+          <section>
+            <div class="container">
+              <div class="row">
+                <div class="col">
+                  <h2 class="text-center">Elige tu próxima aventura</h2>
+                </div>
+              </div>              
+            </div>
+            <div class="container template">
+                <div id="app" class="row">
+                    <template v-for="todo in todos">
+                      <div class="col-sm-6 col-md-4">
+                        <h2 class="text-center">{{ todo.placeName }}</h2>
                         <img v-bind:src="todo.imagen" alt="">
-                    </div>
-                </template>
-      
-        </div>
+                        <a href="#">Conoce más</a>
+                      </div>
+                    </template>
+                  </div>
+            </div>
+           
+
+          </section>
+
+          
   
         <script src="/js/jquery.min.js"></script>
         <script src="/js/popper.min.js"></script>

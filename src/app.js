@@ -5,21 +5,15 @@ var app = new Vue({
     data: {
       todos: [
         {
-            firstName: 'aeiou',
-            lastName: 'Doe',
-            age: 9,
+            placeName: 'Loreto',
             imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpzyWlRX_uz04M8XihFDMcRDmlPVrT_EvNY5RQXzxluSBasRx'
         },
         {
-            firstName: 'John',
-            lastName: 'Doe',
-            age: 5,
+            placeName: 'Loreto',
             imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpzyWlRX_uz04M8XihFDMcRDmlPVrT_EvNY5RQXzxluSBasRx'
         },
         {
-            firstName: 'xzytu',
-            lastName: 'Doe',
-            age: 3,
+            placeName: 'Loreto',
             imagen: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVpzyWlRX_uz04M8XihFDMcRDmlPVrT_EvNY5RQXzxluSBasRx'
         }
       ]

@@ -6315,3 +6315,7 @@ a.text-dark:hover, a.text-dark:focus {
 .carousel-inner img {
   width: 100%;
   height: 100vh; }
+
+.template img {
+  width: 100%;
+  height: 400px; }
