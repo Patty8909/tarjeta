@@ -1,0 +1,19 @@
+// Variable Overrides 
+
+// Bootstrap Sass Imports
+@import "node_modules/bootstrap/scss/bootstrap";
+
+// Variable Overrides 
+$theme-colors: (
+  "primary": #d95700
+);
+
+$body-bg: #d95700;
+
+%img {
+  width: 100%;
+  height: 100vh;
+}
+.carousel-inner img {
+  @extend %img;
+}
